@@ -1,0 +1,51 @@
+.Register {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.Register form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Register label {
+    font-weight: bold;
+}
+
+.Register select, .Insert input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.Register select {
+    width: 100%;
+}
+
+.Register .Error {
+    color: #ff3333;
+    font-size: 12px;
+}
+
+.Register button {
+    background-color: darkblue;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Register button:hover {
+    background-color: #0000CD;
+}
+
+.Register > h1 {
+    text-align: center;
+}

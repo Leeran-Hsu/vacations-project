@@ -1,0 +1,28 @@
+.Menu {
+    padding: 25px;
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Media query for screens smaller than a certain width (e.g., 768px) */
+@media (max-width: 768px) {
+    .Menu {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    .Menu a {
+        margin-right: 0; /* Remove right margin to stack links vertically */
+        margin-bottom: 10px; /* Add some space between links */
+    }
+}

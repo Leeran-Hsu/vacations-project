@@ -1,0 +1,12 @@
+#file-upload-input {
+    display: none;
+}
+
+.upload-button {
+    cursor: pointer;
+}
+
+.upload-button > img {
+    width: 100%;
+    height: 190px;
+}

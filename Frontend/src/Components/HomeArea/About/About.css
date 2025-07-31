@@ -1,0 +1,15 @@
+.About {
+    background: linear-gradient(aliceblue, white);    height: 42vh;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.About h2 {
+    margin-top: 0px;
+}
+
+.About p {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px;
+}

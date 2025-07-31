@@ -1,0 +1,51 @@
+.Login {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.Login form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Login label {
+    font-weight: bold;
+}
+
+.Login select, .Insert input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.Login select {
+    width: 100%;
+}
+
+.Login .Error {
+    color: #ff3333;
+    font-size: 12px;
+}
+
+.Login button {
+    background-color: darkblue;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Login button:hover {
+    background-color: #0000CD;
+}
+
+.Login > h1 {
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+.List {
+    margin-bottom: 20px;
+}
+
+.List button {
+    cursor: pointer;
+    padding: 10px;
+    border: 0px;
+}
+
+.List .buttons button:hover, .List .pagination button:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.List .active-button {
+    background-color: darkblue;
+    color: white;
+}
+
+.List .buttons {
+    margin-left: 20px;
+}
+
+.List .pagination {
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+.AuthMenu {
+	display: flex;
+	justify-content: flex-end; 
+	color: white;
+  }
+
+.AuthMenu span {
+	font-size:large;
+	color: lightblue;
+  }
+  
+  .auth-menu-item {
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+  }
+  
+  .auth-menu-item span {
+	margin-right: 10px; 
+  }
+  
+  .auth-menu-item img {
+	width: 16px;
+	margin-left: 5px;
+  }
+  

@@ -1,0 +1,55 @@
+.Update {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.Update form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Update label {
+    font-weight: bold;
+}
+
+.Update select, .Insert input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.Update select {
+    width: 100%;
+}
+
+.Update .Error {
+    color: #ff3333;
+    font-size: 12px;
+}
+
+.Update button {
+    background-color: darkblue;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Update button:hover {
+    background-color: #0000CD;
+}
+
+.Update > h1 {
+    text-align: center;
+}
+
+.Update img {
+    height: 190px;
+}

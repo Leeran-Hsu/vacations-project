@@ -1,0 +1,149 @@
+.AdminCardContainer {
+    display: inline-flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+  }
+  
+  .AdminCard {
+    width: 300px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+  }
+
+  .AdminCard .card-image-container {
+    position: relative;
+  }
+
+  .AdminCard img {
+    max-width: 100%;
+    height: auto;
+    max-height: 160px;
+    width: -webkit-fill-available;
+  }
+
+  .AdminCard span {
+    display: block;
+    margin: 10px;
+    font-size: 18px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .AdminCard .delete-button {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff; 
+    top: 10px; 
+    right: 10px; 
+    position: absolute;
+    width: 13%;
+    height: 40px; 
+    border-radius: 30%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+  }
+
+  .AdminCard .update-button {
+    margin-right: 25%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff; 
+    top: 10px; 
+    right: -15px; 
+    position: absolute;
+    width: 13%;
+    height: 40px; 
+    border-radius: 30%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+  }
+
+  .AdminCard .delete-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: white;
+  }
+
+  .AdminCard .update-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: white;
+  }
+
+  .AdminCard .update-image {
+    position: absolute;
+    width: 22px;
+  }
+  .AdminCard .delete-image {
+    position: absolute;
+    width: 22px;
+  }
+
+  .AdminCard .destination {
+    top: 0;
+    position: absolute;
+    font-size: 25px; 
+    font-weight: bold; 
+  }
+
+  
+@media (max-width: 768px) {
+  .AdminCard {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+.AdminCard .dates-container {
+  background-color: inherit;
+  position: relative;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px; 
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-top: -15px;
+  text-align: left;
+  display: grid;
+  place-items: center;
+}
+
+.AdminCard .dates-container > img {
+  width:30px;
+  position: absolute;
+  left: 0%;
+}
+
+.AdminCard .dates {
+  display: inline-flex;
+}
+
+.AdminCard .description-container {
+  background-color: #B3E0FF;
+  padding-top: 1px;
+}
+
+.AdminCard .read-more-button {
+  background: none;
+  border: none;
+  color: #007BFF;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+
+
+
+  
+
+  
